@@ -48,6 +48,18 @@ body {
     width: 100%;
 }
 
+#wrapper {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.profile-img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 #heading {
     border-bottom: 1px solid rgb(180, 0, 0);
 
