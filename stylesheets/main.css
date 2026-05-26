@@ -25,6 +25,48 @@ body {
     text-transform: none;
 }
 
+@media screen and (max-width: 768px) {
+
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    #heading {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #content {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #navigation {
+        width: 100%;
+        float: none;
+    }
+
+    #main_content {
+        margin-left: 0;
+    }
+
+    .profile {
+        display: block;
+    }
+
+    .current_profile_info {
+        width: 100%;
+        float: none;
+    }
+
+    .current_profile_image {
+        text-align: center;
+    }
+}
+
 #wrapper {
     width: 900px;
 }
