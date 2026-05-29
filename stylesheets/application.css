@@ -220,7 +220,7 @@ body {
 .profile_info {
     margin: 0px 0px;
 
-    width: 250px;
+    width: 100%;
 
     text-decoration: none;
     text-transform: none;
